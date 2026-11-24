@@ -4,7 +4,7 @@ Two separate HashMap implementations using OOP in Python. Separate chaining is b
 
 ## Project Details
 
-* `a6-include` - Linked List and Dynamic Array data structures provided by CS 261
+* `a6_include` - Linked List and Dynamic Array data structures provided by CS 261
 * `hash_map_oa` - HashMap implementation using Open Addressing 
 * `hash_map_sc` - HashMap implementation using Separate Chaining
 
