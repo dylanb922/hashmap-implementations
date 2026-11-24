@@ -18,6 +18,20 @@ Two separate HashMap implementations using OOP in Python. Separate chaining is b
 * Create an object of the HashMap class.
 * Use any of the supplied methods to store/read data.
 
+### Example
+
+```python
+from a6_include import DynamicArray, hash_function_1
+from hash_map_sc import HashMap, find_mode
+
+# Initialize HashMap
+hm = HashMap(11, hash_function_1)
+hm.put("apple", 10)
+hm.put("banana", 20)
+print(hm.get("apple"))        # Output: 10
+print(hm.contains_key("fig")) # Output: False
+```
+
 ## Acknowledgements
 
 Skeleton code and project design provided by Oregon State University's Data Structures (CS 261) class.
